@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "udahassan-disttrain_jd258"
+name = "udahassan-model_hot_swap_consistency_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别分布式训练框架工程师·模型热切换的一致性的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://udahassan.github.io"
-Repository = "https://github.com/udahassan/disttrain_jd258"
-Issues = "https://github.com/udahassan/disttrain_jd258/issues"
+Repository = "https://github.com/udahassan/model_hot_swap_consistency_signature_match"
+Issues = "https://github.com/udahassan/model_hot_swap_consistency_signature_match/issues"
 
 [project.scripts]
-disttrain_jd258 = "disttrain_jd258:main"
+model_hot_swap_consistency_signature_match = "model_hot_swap_consistency_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["disttrain_jd258"]
+py-modules = ["model_hot_swap_consistency_signature_match"]

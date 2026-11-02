@@ -1,11 +1,11 @@
-# disttrain_jd258
+# model_hot_swap_consistency_signature_match
 
 **给分布式训练框架工程师·模型热切换的一致性算一个特征指纹并定位可疑片段。**
 
-`disttrain_jd258` —— 通过字符级与结构级特征识别分布式训练框架工程师·模型热切换的一致性的痕迹，给出密度与命中位置
+`model_hot_swap_consistency_signature_match` —— 通过字符级与结构级特征识别分布式训练框架工程师·模型热切换的一致性的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`disttrain_jd258.py` 拷走就能用
+- 单文件，`model_hot_swap_consistency_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install udahassan-disttrain_jd258
+pip install udahassan-model_hot_swap_consistency_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-disttrain_jd258 --help
+model_hot_swap_consistency_signature_match --help
 ```
 
-也可以不用安装，直接把 `disttrain_jd258.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `model_hot_swap_consistency_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ disttrain_jd258 --help
 ## 用法
 
 ```bash
-python disttrain_jd258.py --file input.txt
-python disttrain_jd258.py --text "示例内容"
-python disttrain_jd258.py --file input.txt --json
+python model_hot_swap_consistency_signature_match.py --file input.txt
+python model_hot_swap_consistency_signature_match.py --text "示例内容"
+python model_hot_swap_consistency_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python disttrain_jd258.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_disttrain_jd258.py
+python test_model_hot_swap_consistency_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_disttrain_jd258.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/udahassan/disttrain_jd258>
+- GitHub 仓库：<https://github.com/udahassan/model_hot_swap_consistency_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_disttrain_jd258.py
 udahassan 做分布式训练框架工程师·模型热切换的一致性相关的问题，方向对标MiniMax的架构分布式训练框架工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://udahassan.github.io>
-- 仓库：<https://github.com/udahassan/disttrain_jd258>
+- 仓库：<https://github.com/udahassan/model_hot_swap_consistency_signature_match>
 
 ## 许可
 
